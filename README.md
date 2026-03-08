@@ -1,16 +1,70 @@
-# React + Vite
+# Project Valentine
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Minimal web app for couples to test their compatibility.
+No signup.
+No backend.
+Just clean results.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
+https://valentinesync.netlify.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
+- **10-question relationship quiz** covering conflict, love language, communication & more
+- **Dual person mode** — each partner answers separately
+- **Compatibility score** with animated counter (0-100%)
+- **Radar chart** showing category breakdown
+- **Confetti celebration** for scores 70%+
+- **Subtle sound effects** via Web Audio API
+- Download results as **PNG** (Story 9:16 or Square 1:1)
+- Progress saved to **local storage**
+- Fully responsive (mobile-first)
+- Full keyboard accessibility
+- No authentication
+- No ads
+- No tracking
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+- React (Vite)
+- Tailwind CSS
+- html2canvas (PNG export)
+- Web Audio API (sounds)
+- Vercel (static deploy)
+
+---
+
+## How It Works
+1. Click **Start Test**
+2. Person A answers 10 questions
+3. Person B answers the same questions
+4. Click **View Results** to see compatibility score
+5. Download and share your result card
+
+> All processing happens client-side. Nothing is uploaded.
+
+---
+
+## Privacy
+All processing happens **locally in your browser**.
+No data is sent to any server.
+Your answers never leave your device.
+
+---
+
+## Installation
+```bash
+# Clone the repo
+git clone https://github.com/berkinyilmaz/love-sync.git
+
+# Install dependencies
+cd love-sync
+npm install
+
+# Run locally
+npm run dev
+```
