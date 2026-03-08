@@ -5,6 +5,8 @@ No signup.
 No backend.
 Just clean results.
 
+<img width="1918" height="978" alt="Screenshot 2026-03-08 193831" src="https://github.com/user-attachments/assets/3123eb2c-be3f-4248-8cfe-6b556a654190" />
+
 ---
 
 ## Live Demo
@@ -59,7 +61,7 @@ Your answers never leave your device.
 ## Installation
 ```bash
 # Clone the repo
-git clone https://github.com/berkinyilmaz/love-sync.git
+git clone https://github.com/NipunKushwaha-web/LoveSync
 
 # Install dependencies
 cd love-sync
